@@ -1,0 +1,26 @@
+{
+  "name": "ivoba-oxid/google-tag-manager",
+  "description": "Google TagManager module for OXID eShop 6",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop", "google", "TagManager"],
+  "homepage": "https://github.com/ivoba-oxid/google-tag-manager",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "oxid-esales/oxideshop-ce": "^v6.0"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "ivoba/google-tag-manager"
+    },
+    "branch-alias": {
+        "dev-master": "1.0.x-dev"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "IvobaOxid\\GoogleTagManager\\": "../../../source/modules/ivoba/google-tag-manager"
+    }
+  }
+}
