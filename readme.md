@@ -16,4 +16,4 @@ In "Erweiterungen -> Module -> Ivo Bathke: Google Tag Manager" enter your settin
 
 ## License MIT
 
-    © [Ivo Bathke](https://oxid.ivo-bathke.name)
+© [Ivo Bathke](https://oxid.ivo-bathke.name)
