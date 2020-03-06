@@ -1,11 +1,11 @@
 <?php
-$sMetadataVersion = '2';
+$sMetadataVersion = '2.0';
 $aModule          = [
     'id'          => 'ivoba_google_tag_manager',
     'title'       => '<strong>Ivo Bathke</strong>:  <i>Google Tag Manager</i>',
     'description' => '',
     'thumbnail'   => 'ivoba-oxid.png',
-    'version'     => '1.0',
+    'version'     => '1.1',
     'author'      => 'Ivo Bathke',
     'email'       => 'ivo.bathke@gmail.com',
     'url'         => 'https://oxid.ivo-bathke.name#google-tag-manager',
