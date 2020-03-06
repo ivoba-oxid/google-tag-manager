@@ -5,12 +5,12 @@ $aModule          = [
     'title'       => '<strong>Ivo Bathke</strong>:  <i>Google Tag Manager</i>',
     'description' => '',
     'thumbnail'   => 'ivoba-oxid.png',
-    'version'     => '1.1',
+    'version'     => '1.0',
     'author'      => 'Ivo Bathke',
     'email'       => 'ivo.bathke@gmail.com',
     'url'         => 'https://oxid.ivo-bathke.name#google-tag-manager',
     'extend'      => [
-      ],
+    ],
     'blocks'      => [
         [
             'template' => 'layout/base.tpl',
@@ -23,10 +23,10 @@ $aModule          = [
             'file'     => 'views/blocks/tag_manager_order_products.tpl',
         ],
         [
-    			'template' => 'layout/base.tpl',
-    			'block'    => 'theme_svg_icons',
-    			'file'     => '/views/blocks/tag_manager_noscript.tpl'
-    		]
+            'template' => 'layout/base.tpl',
+            'block'    => 'theme_svg_icons',
+            'file'     => '/views/blocks/tag_manager_noscript.tpl'
+        ]
     ],
     'settings'    => [
         [
@@ -35,6 +35,12 @@ $aModule          = [
             'type'  => 'str',
             'value' => 'GTM-*****',
         ],
+        [
+            'group' => 'ivoba_google_tag_manager',
+            'name'  => 'ivoba_google_tag_manager_order_event',
+            'type'  => 'str',
+            'value' => 'OrderEvent',
+        ]
 
     ],
     'events'      => [
