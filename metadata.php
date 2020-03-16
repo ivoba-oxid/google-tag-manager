@@ -1,11 +1,11 @@
 <?php
-$sMetadataVersion = '2.0';
+$sMetadataVersion = '2.1';
 $aModule          = [
     'id'          => 'ivoba_google_tag_manager',
     'title'       => '<strong>Ivo Bathke</strong>:  <i>Google Tag Manager</i>',
     'description' => '',
     'thumbnail'   => 'ivoba-oxid.png',
-    'version'     => '1.1.3',
+    'version'     => '1.1.4',
     'author'      => 'Ivo Bathke',
     'email'       => 'ivo.bathke@gmail.com',
     'url'         => 'https://oxid.ivo-bathke.name#google-tag-manager',
@@ -15,12 +15,14 @@ $aModule          = [
         [
             'template' => 'layout/base.tpl',
             'block'    => 'head_meta_robots',
-            'file'     => '/views/blocks/tag_manager_script.tpl',
+            'file'     => 'views/blocks/tag_manager_order_products.tpl',
+            'position' => '2'
         ],
         [
             'template' => 'layout/base.tpl',
             'block'    => 'head_meta_robots',
-            'file'     => 'views/blocks/tag_manager_order_products.tpl',
+            'file'     => '/views/blocks/tag_manager_script.tpl',
+            'position' => '1'
         ],
         [
             'template' => 'layout/base.tpl',
@@ -43,6 +45,5 @@ $aModule          = [
         ]
 
     ],
-    'events'      => [
-    ],
+    'events'      => [],
 ];

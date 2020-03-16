@@ -1,4 +1,3 @@
-[{$smarty.block.parent}]
 [{if $oViewConf->getActiveClassName() == "thankyou"}]
   [{assign var="oConfig" value=$oViewConf->getConfig()}]
   [{assign var="order" value=$oView->getOrder()}]
@@ -31,3 +30,4 @@
     });
   </script>
   [{/if}]
+[{$smarty.block.parent}]
